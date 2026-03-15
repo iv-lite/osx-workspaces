@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cd "$(dirname ${BASH_SOURCE[0]})"
+basedir="$(pwd)"
+
+# aerospace window-manager
+brew install --cask nikitabobko/tap/aerospace
+
+# sketchybar
+brew tap FelixKratz/formulae
+brew install sketchybar
+brew install --cask font-hack-nerd-font
